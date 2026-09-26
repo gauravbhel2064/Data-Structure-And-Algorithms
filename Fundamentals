@@ -1,0 +1,14 @@
+Java is a typed language which means to define a variable we need to define which type of data we need to store.
+For eg, int, char, string, float etc.
+    Data Types in Java:-
+a. Primitive :- byte, short, char, boolean, int, long, float, double  
+b. Non-Primitive :- String, Array, Class, Object, interface
+Call by Value :- Passing an copy of original variable. Java always call by value.
+  -> When you pass a variable to a function, it is a copy of a original variable that is created inside a stack frame 
+      of that function. If you return to the main function stack frame of the function will be deleted and all changes to 
+      that passing variable also gets deleted.
+Call by Reference :- Those function in which we pass an original value. In C++ we pass original copy.
+Function Overloading :- Multiple functions with the same name but different parameters.
+  Note:- Function Overloading does not depend on the return type of the function, it will treat same if the name is same.
+          eg, int sum(int a, int b)  &   float sum(int a, int b)  - Here both are same , so it's is not function overloading
+                it will give error when compile.

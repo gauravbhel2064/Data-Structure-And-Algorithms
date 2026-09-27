@@ -1,0 +1,18 @@
+Array:- List of Elements of the same type placed in a contiguous memory location.
+  Note:- Arrays are static type means if define an array of a particular size you can't add more than that.
+Note:- Arrays are Pass by Reference means if you pass an array as function argument and made changes to it, it will also reflects changes 
+        in the main function too ( or the original array).
+Operations in Arrays:- Create, Input, Ouput, Update
+Indexing starts from 0
+Creating an Array:-   
+                      dataType arrayName[] = new dataType[size];  // declaring an Array
+                      eg, int marks[] = new int[3];
+                      int marks[] = {50,60,90};          // declaring and initializing an array of size 3
+                          marks[0]=50;
+                          marks[1]=60;
+                          marks[2]=90;
+                      // Taking input in an array after declaring
+                      for(int i=0;i<marks.length;i++){            // Note:- Length of the array=  Using length property eg, arrayName.length;
+                          marks[i]=sc.next();
+                      }
+***********_______________________________________**************
